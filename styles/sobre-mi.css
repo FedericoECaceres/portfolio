@@ -1,0 +1,46 @@
+
+.contenedor-sobre-mi
+{
+    margin: 0 0 100px 0;
+}
+
+
+.titulo-sobre-mi
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion-sobre-mi
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font: Arial;
+}
+
+.foto-perfil
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.foto-perfil img
+{
+    display: flex;
+    width: 250px;
+    margin: 100px auto;
+    border-radius: 250px;
+    box-shadow: 10px 5px 5px gray;
+    padding: 25px;
+    background-color: white;
+}
+
+a
+{
+    text-decoration: none;
+}

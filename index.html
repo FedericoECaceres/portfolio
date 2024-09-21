@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="code.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sobre-mi.css">
+    <link rel="stylesheet" href="styles/proyectos.css">
+    <link rel="stylesheet" href="styles/contacto.css">
+    <link rel="stylesheet" href="styles/tecnologias.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/redes.css">
+
+    <title>Portfolio-Federico-Caceres</title>
+</head>
+
+<body class="back-colour">
+    <section>
+        <header class="header-style">
+            <div>
+                <h3 class="title">FEDERICO CACERES</h3>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <a href="#about-me">
+                            <li>SOBRE MI</li>
+                        </a>
+                        <a href="#proyectos">
+                            <li>PROYECTOS</li>
+                        </a>
+                        <a href="#contacto">
+                            <li>CONTACTO</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </section>
+
+    <!-- Sección Sobre Mi -->
+    <section id="about-me">
+
+        <div class="contenedor-sobre-mi">
+            <div class="foto-perfil">
+                <img src="pp/prflP.jfif" alt="fotoPerfil">
+            </div>
+            <div>
+                <h3 class="titulo-sobre-mi">SOBRE MI</h3>
+                <div>
+                    <p class="descripcion-sobre-mi">Desarrollador en C# con .NET - Estudiante de Tecnicatura Superior en
+                        Programacion de la Universidad Nacional
+                        Tecnologica FRGP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecnologias -->
+    <section id="tecnlogias">
+        <div class="titulo-tecnologia">
+            <h3>TECNOLOGIAS</h3>
+        </div>
+        <div class="contenedores-tecnologias icons-tecnologias">
+            <div>
+                <img class="columnas" src="icons/c-icon.jpg" alt="c">
+            </div>
+            <div>
+                <img class="columnas" src="icons/cpp-icon.jpg" alt="cpp">
+            </div>
+            <div>
+                <img class="columnas" src="icons/sql-icon.jpg" alt="sql">
+            </div>
+            <div>
+                <img class="columnas" src="icons/html-logo.jpg" alt="html">
+            </div>
+            <div>
+                <img class="columnas" src="icons/css-logo.jpg" alt="css">
+            </div>
+            <div>
+                <img class="columnas" src="icons/js-logo.jpg" alt="js">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos">
+        <div>
+            <div>
+                <h3>PROYECTOS</h3>
+            </div>
+            <div class="contenedores">
+                <div class="columnas">
+                    <div class="proyects">
+                        <a href="https://github.com/UTN-Laboratorio-I/irwins_revenge" target="_blank" rel="noonpener noreferrer">
+                            <img src="icons/irwins.png" alt="irwins">
+                        </a>
+                    </div>
+                    <h2>Iriwins Revange - Console</h2>
+                    <p>Juego de dados en consola en C++</p>
+                </div>
+                <div class="columnas">
+                    <div class="proyects">
+                        <a href="https://github.com/UTN-Laboratorio-I/sistema_gestion_herrajes" target="_blank" rel="noonpener noreferrer">
+                            <img src="icons/cmd-icon.png" alt="sistema-gestion-console">
+                        </a>
+                    </div>
+                    <h2>Sistema Gestion - Console</h2>
+                    <p>Sistema de gestion en consola en C++</p>
+                </div>
+                <div class="columnas">
+                    <div class="proyects">
+                        <a href="https://github.com/UTNProgramacion3/tp-winform-equipo-16A" target="_blank" rel="noonpener noreferrer">
+                            <img src="icons/frrms-icon.png" alt="sistema-gestion-forms">
+                        </a>
+                    </div>
+                    <h2>Sistema Gestion - Windows Forms</h2>
+                    <p>Sistema de gestion de escritorio en C# con .NET Framework</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Redes -->
+    <section id="Redes">
+        <div>
+            <h3>REDES</h3>
+            <div>
+                <div class="contenedores-redes">
+                    <div class="contenedores-con-titulo-redes">
+                        <h2>GITHUB</h2>
+                        <div class="icons-redes">
+                            <a href="https://github.com/FedericoECaceres" target="_blank" rel="noonpener noreferrer">
+                                <img src="icons/ghub-icon.png" alt="github-logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contenedores-con-titulo-redes">
+                        <h2>LINKEDIN</h2>
+                        <div class="icons-redes">
+                            <a href="https://www.linkedin.com/in/federicoeliascaceres" target="_blank"
+                                rel="noonpener noreferrer">
+                                <img src="icons/lkdin-icon.png" alt="linkedin-logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <div>
+            <h3>CONTACTO</h3>
+            <div class="contenedor-contacto">
+                <div class="fila-contacto">
+                    <label for="">Nombre</label>
+                    <input type="text" id="txt-nombre">
+                </div>
+                <div class="fila-contacto">
+                    <label for="">Apellido</label>
+                    <input type="text" id="txt-apellido">
+                </div>
+                <div class="fila-contacto">
+                    <label for="">Correo</label>
+                    <input type="text" id="correo">
+                </div>
+                <div class="fila-contacto">
+                    <label for="">Motivo</label>
+                    <textarea></textarea>
+                </div>
+                <div>
+                    <button onclick="enviar()">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section>
+        <footer>
+            <div class="contenedor-footer">
+                <div class="parrafo-footer">
+                    <p>&copy; 2024 Federico Caceres. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
